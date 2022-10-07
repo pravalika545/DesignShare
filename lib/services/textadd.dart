@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_9/products/additem.dart';
 
-import 'package:flutter_application_9/services/question.dart';
+//import 'package:flutter_application_9/services/question.dart';
 
 class TextAdd extends StatefulWidget {
   const TextAdd({Key? key}) : super(key: key);
@@ -16,14 +16,14 @@ class _TextAddState extends State<TextAdd> {
     return Scaffold(
       backgroundColor: Colors.blue[300],
       body: Padding(
-        padding: const EdgeInsets.only(top: 120),
+        padding: const EdgeInsets.only(top: 90),
         child: Container(
-          padding: EdgeInsets.only(top: 80),
-          height: 700,
-          width: 900,
+          padding: EdgeInsets.only(top: 50),
+          height: 580,
+          width: 700,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(30),
             color: Colors.white,
+            borderRadius: BorderRadius.circular(30),
           ),
           child: AddItem(),
         ),
